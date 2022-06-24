@@ -1,6 +1,6 @@
 input[type=text], select {
     width: 100%;
-    padding: 12px 20px;
+    padding: 12px 20px ;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -9,7 +9,7 @@ input[type=text], select {
   }
   
   input[type=submit] {
-    width: 100%;
+    width: 30%;
     background-color: #4cafa2;
     color: white;
     padding: 14px 20px;
@@ -29,11 +29,22 @@ input[type=text], select {
     padding: 20px;
   }
 
-  .RememberMe{
-    text-align: left;
+  #RememberMe{
+    position: absolute;
+    left: 30%
+    
   }
+lable{
+  display: inline-block;
+  width: 150px;
+}
+
+
 
  body{
+  position: absolute;
+  left: 20%;
+  top: 5%;
     text-align: center;
     padding: 100px;
     background: #eb5d64d7;
